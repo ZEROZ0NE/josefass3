@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="143d8339-75de-4446-8e37-81e2185b1b1d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ltu/CalendarFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ltu/CalendarImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ltu/Calender20160101.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ltu/ICalendar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ltu/IPayment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ltu/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ltu/PaymentImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ltu/PaymentTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ltu/production/assignment3testing/ltu/PaymentTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ltu/production/assignment3testing/ltu/PaymentTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compile.sh" beforeDir="false" afterPath="$PROJECT_DIR$/compile.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coveragereport/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coveragereport/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coveragereport/jacoco-sessions.html" beforeDir="false" afterPath="$PROJECT_DIR$/coveragereport/jacoco-sessions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coveragereport/ltu/PaymentImpl.html" beforeDir="false" afterPath="$PROJECT_DIR$/coveragereport/ltu/PaymentImpl.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coveragereport/ltu/PaymentImpl.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/coveragereport/ltu/PaymentImpl.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coveragereport/ltu/PaymentTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/coveragereport/ltu/PaymentTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coveragereport/ltu/PaymentTest.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/coveragereport/ltu/PaymentTest.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coveragereport/ltu/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coveragereport/ltu/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coveragereport/ltu/index.source.html" beforeDir="false" afterPath="$PROJECT_DIR$/coveragereport/ltu/index.source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/jacoco.exec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ltu/PaymentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ltu/PaymentTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unittest.sh" beforeDir="false" afterPath="$PROJECT_DIR$/unittest.sh" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1i8nJzQMfodOxR5RnOTP4aS4H9S" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="143d8339-75de-4446-8e37-81e2185b1b1d" name="Default Changelist" comment="" />
+      <created>1601298018839</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601298018839</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="517" y="325" width="702" height="554" key="FileChooserDialogImpl" timestamp="1601301975420">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="517" y="325" width="702" height="554" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1601301975420" />
+    <state x="361" y="185" width="1024" height="840" key="SettingsEditor" timestamp="1601302334465">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="361" y="185" width="1024" height="840" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1601302334465" />
+  </component>
+</project>

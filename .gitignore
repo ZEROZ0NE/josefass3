@@ -1,0 +1,9 @@
+assignment3test/compile.bat
+assignment3test/unittest.bat
+assignment3test/compile.sh
+assignment3test/unittest.sh
+
+assignment3test/.idea
+
+assignment3test/coveragereport
+assignment3test/bin

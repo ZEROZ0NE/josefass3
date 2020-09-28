@@ -87,9 +87,9 @@ public class PaymentImpl implements IPayment
 
     private int getAge(String personId)
     {
-<span class="pc bpc" id="L90" title="2 of 4 branches missed.">        if (personId == null || personId.length() != 13)</span>
+<span class="pc bpc" id="L90" title="1 of 4 branches missed.">        if (personId == null || personId.length() != 13)</span>
         {
-<span class="nc" id="L92">            throw new IllegalArgumentException(&quot;Invalid personId: &quot; + personId);</span>
+<span class="fc" id="L92">            throw new IllegalArgumentException(&quot;Invalid personId: &quot; + personId);</span>
         }
 <span class="fc" id="L94">        int personYear = parseInt(personId.substring(0, 4));</span>
 <span class="fc" id="L95">        int paymentYear = parseInt(new SimpleDateFormat(&quot;yyyy&quot;).format(calendar.getDate()));</span>
@@ -99,44 +99,44 @@ public class PaymentImpl implements IPayment
 
     private int getLoan(int age, int income, int studyRate, int completionRatio)
     {
-<span class="pc bpc" id="L102" title="6 of 8 branches missed.">        if (studyRate &lt; 50 || age &lt; 20 || age &gt;= 47 || completionRatio &lt; 50)</span>
+<span class="pc bpc" id="L102" title="2 of 8 branches missed.">        if (studyRate &lt; 50 || age &lt; 20 || age &gt;= 47 || completionRatio &lt; 50)</span>
         {
 <span class="fc" id="L104">            return ZERO_LOAN;</span>
         }
-<span class="nc bnc" id="L106" title="All 4 branches missed.">        if (studyRate &gt;= 100 &amp;&amp; income &gt; FULLTIME_INCOME)</span>
+<span class="pc bpc" id="L106" title="1 of 4 branches missed.">        if (studyRate &gt;= 100 &amp;&amp; income &gt; FULLTIME_INCOME)</span>
         {
 <span class="nc" id="L108">            return ZERO_LOAN;</span>
         }
-<span class="nc bnc" id="L110" title="All 4 branches missed.">        if (studyRate &lt; 100 &amp;&amp; income &gt; PARTTIME_INCOME)</span>
+<span class="pc bpc" id="L110" title="1 of 4 branches missed.">        if (studyRate &lt; 100 &amp;&amp; income &gt; PARTTIME_INCOME)</span>
         {
 <span class="nc" id="L112">            return ZERO_LOAN;</span>
         }
-<span class="nc bnc" id="L114" title="All 2 branches missed.">        if (studyRate &lt; 100)</span>
+<span class="fc bfc" id="L114" title="All 2 branches covered.">        if (studyRate &lt; 100)</span>
         {
-<span class="nc" id="L116">            return HALF_LOAN;</span>
+<span class="fc" id="L116">            return HALF_LOAN;</span>
         }
-<span class="nc" id="L118">        return FULL_LOAN;</span>
+<span class="fc" id="L118">        return FULL_LOAN;</span>
     }
 
     private int getSubsidy(int age, int income, int studyRate, int completionRatio)
     {
-<span class="pc bpc" id="L123" title="6 of 8 branches missed.">        if (studyRate &lt; 50 || age &lt; 20 || age &gt; 56 || completionRatio &lt; 50)</span>
+<span class="pc bpc" id="L123" title="3 of 8 branches missed.">        if (studyRate &lt; 50 || age &lt; 20 || age &gt; 56 || completionRatio &lt; 50)</span>
         {
 <span class="fc" id="L125">            return ZERO_SUBSIDY;</span>
         }
-<span class="nc bnc" id="L127" title="All 4 branches missed.">        if (studyRate &gt;= 100 &amp;&amp; income &gt; FULLTIME_INCOME)</span>
+<span class="pc bpc" id="L127" title="1 of 4 branches missed.">        if (studyRate &gt;= 100 &amp;&amp; income &gt; FULLTIME_INCOME)</span>
         {
 <span class="nc" id="L129">            return ZERO_SUBSIDY;</span>
         }
-<span class="nc bnc" id="L131" title="All 4 branches missed.">        if (studyRate &lt; 100 &amp;&amp; income &gt; PARTTIME_INCOME)</span>
+<span class="pc bpc" id="L131" title="1 of 4 branches missed.">        if (studyRate &lt; 100 &amp;&amp; income &gt; PARTTIME_INCOME)</span>
         {
 <span class="nc" id="L133">            return ZERO_SUBSIDY;</span>
         }
-<span class="nc bnc" id="L135" title="All 2 branches missed.">        if (studyRate &lt; 100)</span>
+<span class="fc bfc" id="L135" title="All 2 branches covered.">        if (studyRate &lt; 100)</span>
         {
-<span class="nc" id="L137">            return HALF_SUBSIDY;</span>
+<span class="fc" id="L137">            return HALF_SUBSIDY;</span>
         }
-<span class="nc" id="L139">        return FULL_SUBSIDY;</span>
+<span class="fc" id="L139">        return FULL_SUBSIDY;</span>
     }
 
 }

@@ -3,7 +3,7 @@
 <span class="nc" id="L3">public class CalendarFactory</span>
 {
 
-<span class="nc" id="L6">    private static ICalendar calendar = null;</span>
+<span class="fc" id="L6">    private static ICalendar calendar = null;</span>
 
     public static ICalendar getCalendar()
     {
@@ -12,18 +12,18 @@
     }
 
     public static ICalendar getCalendar(String className) {
-<span class="nc" id="L15">        return initCalendar(className);</span>
+<span class="fc" id="L15">        return initCalendar(className);</span>
     }
 
     private static ICalendar initCalendar(String className) {
         try
         {
-<span class="nc" id="L21">            calendar = (ICalendar) Class.forName(className).newInstance();</span>
+<span class="fc" id="L21">            calendar = (ICalendar) Class.forName(className).newInstance();</span>
 <span class="nc" id="L22">        } catch (ClassNotFoundException | InstantiationException | IllegalAccessException e)</span>
         {
 <span class="nc" id="L24">            e.printStackTrace();</span>
-<span class="nc" id="L25">        }</span>
-<span class="nc" id="L26">        return calendar;</span>
+<span class="fc" id="L25">        }</span>
+<span class="fc" id="L26">        return calendar;</span>
     }
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.5.201910111838</span></div></body></html>

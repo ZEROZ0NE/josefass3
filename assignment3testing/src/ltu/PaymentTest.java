@@ -29,7 +29,7 @@ public class PaymentTest
             testloan = testobjekt.getMonthlyAmount("19970101-6969", 0, 100, 100);
             assertEquals(0, testloan);
         }catch(AssertionError err){
-            System.out.println("Test 1, correct : 0, got : "+ testloan);
+            System.out.println(testloan);
         }
     }
 

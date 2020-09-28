@@ -4,13 +4,34 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-<span class="fc" id="L7">public class PaymentTest</span>
+import static ltu.CalendarFactory.getCalendar;
+
+import java.io.*;
+
+
+<span class="fc" id="L12">public class PaymentTest</span>
 {
+    private static PaymentImpl testobjekt;
+    static {
+        try {
+<span class="fc" id="L17">            testobjekt = new PaymentImpl(CalendarFactory.getCalendar(&quot;ltu.Calender20160101&quot;));</span>
+<span class="nc" id="L18">        } catch (IOException e) {</span>
+<span class="nc" id="L19">            e.printStackTrace();</span>
+<span class="fc" id="L20">        }</span>
+<span class="fc" id="L21">    }</span>
+
+
     @Test
-    public void testSilly()
+    public void age19()
     {
-<span class="fc" id="L12">        assertEquals(1, 1);</span>
-<span class="fc" id="L13">    }</span>
+<span class="fc" id="L27">        int testloan = -1;</span>
+        try {
+<span class="fc" id="L29">            testloan = testobjekt.getMonthlyAmount(&quot;19970101-6969&quot;, 0, 100, 100);</span>
+<span class="fc" id="L30">            assertEquals(0, testloan);</span>
+<span class="nc" id="L31">        }catch(AssertionError err){</span>
+<span class="nc" id="L32">            System.out.println(&quot;Test 1, correct : 0, got : &quot;+ testloan);</span>
+<span class="fc" id="L33">        }</span>
+<span class="fc" id="L34">    }</span>
 
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.5.201910111838</span></div></body></html>
